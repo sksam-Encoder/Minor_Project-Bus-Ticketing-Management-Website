@@ -1,0 +1,635 @@
+@import url('./fonts.css');
+
+/*  creating variables */
+:root{
+      
+    /* creating colours */
+    --grey:#3f4954;
+    --midnight:#218c74;
+    --light:#7f8fa6;
+    --electron:#2f3640;    
+   /* creating colours */
+
+   /*  gradient colours */
+     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+
+
+
+   /*  gradient colours */
+
+
+
+    /* creating theme variables */
+    --Abel:'Abel',cursive;
+    --Arvo:'Arvo ',cursive;
+    --josefin:'josefin',cursive;
+    --Lexend:'Lexend',cursive;
+    --Livvic:'Livvic',cursive;
+
+    /* creating theme variables */
+
+
+}
+
+
+
+
+
+
+/*  creating variables */
+
+
+
+
+
+html,body{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+/* ------------global classes-------------- */
+
+.text-gray{
+
+color:var(--grey);
+
+
+}
+
+
+
+
+
+.anch{
+
+text-decoration: none;
+color: var(--grey);
+
+}
+.anch:hover
+{
+
+  text-decoration: none;
+
+}
+li{
+
+list-style-type: none;
+
+}
+
+.flex-row1
+{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* the benifits of flex wrap is that it makes more responsive on smaller screen    */
+    
+    
+}
+
+h1
+{
+font-family: var(--Lexend);
+font-size: 2.5rem;
+
+
+}
+h3
+{
+font-family: var(--Abel);
+font-size: 1.3rem;
+
+
+}
+
+ button.bttn
+ {
+  border-radius: 2rem;
+  padding:0.5rem 2rem;
+  font-family: var(--Livvic);
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+
+ }
+
+ .btn, .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  
+}
+
+.standardInput,.standardInput:focus,.standardInput:focus{
+  outline: none;
+  border: none;
+  height: 50px; 
+  width: 100%;
+  font-size: 25px;
+}
+
+.backs .owl-carousel .blog-content  {
+  overflow: hidden;
+}
+.backs .owl-carousel .blog-content {
+    transition: transform 0.5s ease;
+}
+.backs .owl-carousel .blog-content:hover {
+  transform: scale(1.1);
+}
+
+.site-content .post  {
+
+  overflow: hidden;
+
+
+}
+.site-content .post .post-content   {
+
+  transition: transform 0.5s ease;
+
+
+}
+.site-content .post .post-content:hover{
+
+  transform: scale(1.1);
+
+}
+
+ .container1
+ {
+
+ margin: 0 5vw;
+
+
+ }
+
+/* ------------global classes-------------- */
+/*---------- nav--------- */
+.nav1{
+
+background-color:#fff ;
+padding: 0rem 2rem;
+height: 5rem;
+min-height:9.5vh;
+overflow:hidden;
+transition:height 1s ease-in-out ;
+-webkit-box-shadow: 15px  rgba(0, 0, 0, 0.8);
+	box-shadow: 15px rgba(0, 0, 0, 0.8);
+
+
+}
+.nav1 .nav-menu1{
+
+justify-content: space-between;
+
+}
+
+.nav1 .nav-brand1 a{
+
+font-size: 1.4rem;
+display: block;
+
+position: relative;
+top: -15%;
+height: 6rem;
+
+
+}
+
+.nav1 .nav-item1{
+ display: flex;/* flex; all the items is in the same row  */
+margin: 0;
+
+}
+.nav1 .nav-item1 .nav-link1{
+
+padding: 1.6rem 1.1rem;
+font-size: 1.1rem;
+position: relative;
+font-family: var(--Abel);
+}
+.nav1 .nav-item1 .nav-link1:hover{
+
+    background-color: var(--midnight);
+
+}
+.nav1 .nav-item1 .nav-link1:hover  a{
+
+  color: white;
+}
+.nav1 .social{
+
+padding: 1.6rem 0;
+
+
+}
+.nav1 .social i{
+
+padding: 0.2rem;
+
+
+}
+.nav1 .social i:hover{
+
+color: #a1c4cf;
+
+
+}
+.nav1 #Mlogo{
+
+  width: 126px;
+  height: 72px;
+  position: absolute;
+  top: 17%;
+  background-color:#fff;
+  image-resolution:500px 470px ;
+
+}
+.nav1 .toogle-collapse1{
+
+position: absolute;
+top: 0%;
+width: 90%;
+display: none;
+
+
+}
+.nav1 .toogle-collapse1 .toogle-icon1{
+
+display: flex;
+justify-content: flex-end;
+padding: 1.8rem 0;
+
+}
+
+.nav1 .toogle-collapse1 .toogle-icon1 i{
+
+color: var(--grey);
+font-size: 1.4rem;
+cursor: pointer;
+}
+/* change to that area ----------------------------------------------------------------------------------------- */
+.collapse1{
+
+height: 30rem;
+
+
+}
+/*----------------main site section----------------------   */
+
+main .site-title
+{
+
+background: url(../assets/Background-image.png);
+background-size: cover;
+height: 110vh;
+display: flex; /* this will not consume extra margin     */
+justify-content: center;
+}
+main .site-background
+{
+
+color: #fff;
+padding-top: 10rem;
+text-align: center;
+
+}
+
+main .site-background h1,h3
+{
+
+margin: .3rem;
+
+}
+main .site-title button
+{
+
+margin: 1.8rem;
+background: var(--sky);
+
+
+}
+
+main .site-title .btn:hover
+{
+
+
+background: transparent;
+border: 1px solid #fff;
+color: #ffff;
+}
+
+/*-----------------------Blog Carousel---------------------------------*/
+main .backs
+{
+
+background-image: url(../assets/Abract01.png);
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+background-position: right;
+background-size: 60%; /* this will increase or decrease the size of background image.  */
+
+}
+
+main .blog .blog-post
+{
+
+  padding-top: 8rem;
+}
+
+
+main .blog .blog-post .blog-content
+{
+ 
+   display: flex;
+  flex-direction: column; 
+  text-align: center;
+  margin: 3rem 2rem;
+  box-shadow: 0  15px   20px rgba(0, 0,0, 0.2);
+  height: 47vh ;
+  
+}
+
+.card-img-top{
+
+height: 25vh;
+
+}
+
+
+main .blog .blog-post .blog-content .blog-title
+{
+padding: .7rem 0rem;
+}
+
+.btn-post
+{
+
+background: var(--sky);
+padding:0.3rem 1rem ;
+margin: .1rem;
+
+}
+
+
+main  .blog-content span
+{
+
+display: block;
+ font-family: var(--Abel);
+}
+
+main .blog-content .blog-img{
+
+height: 25vh;
+
+}
+
+section  .owl-nav
+{
+
+  position: absolute;
+  top: 0%;
+  width:100% ;
+
+/* owl-nav is a predefined class for the nav button in owl carousel    */  
+}
+
+ section .owl-nav .owl-prev .owl-nav-prev,   /* custom classes and owl classes are combined so we need to specify both classes */
+ section  .owl-nav .owl-next .owl-nav-next 
+ {
+
+background: transparent;
+color: var(--grey);
+font-size: 2rem;
+}
+/* as we dont know that in the owl-nav classes where the hover effct is defined for the nav buttons */
+section  .owl-theme .owl-nav [class*='owl-']:hover{
+
+background: transparent;
+
+
+
+}
+
+section .container1 .owl-theme  .owl-nav [class*='owl-']
+ {
+
+ outline: none;
+
+ }
+
+
+
+/*-----------------------Blog Carousel---------------------------------*/
+
+
+
+
+
+/*----------------main site section----------------------   */
+
+
+
+/*  viewport for screen equal and less than 750px */
+
+@media only screen and (max-width: 958px)
+{
+
+.nav1 .nav-menu1, .nav1 .nav-item1{
+
+flex-direction: column;
+
+
+}
+
+.nav1 .toogle-collapse1{
+
+    display: initial;
+
+}
+
+
+}
+
+
+
+/*  viewport for screen equal and less than 740px */
+
+
+
+
+
+
+/*-----x-------nav-----x---- */
+
+.font-size-14 {
+
+font-size: 14;
+
+}
+.font-size-16 {
+
+font-size: 16;
+
+}
+.font-size-18 {
+
+font-size: 18;
+
+}
+.font-size-20 {
+
+font-size: 20;
+
+}
+/* site content */
+
+main .site-content {
+
+display: grid;
+grid-template-columns: 70% 30%;
+
+
+}
+
+main .post-content{
+
+  margin-bottom: 1rem;
+  width: 100%;
+
+
+}
+main .site-content .post-content .img{
+
+width: 100%;
+
+}
+
+main .site-content .post-content > .post-image, .post-title {
+
+  position: relative;
+  width: 95%;
+
+}
+
+main .site-content .post-content  .post-image > .post-info {
+
+background: var(--sky);
+
+}
+.post-info.flex-row1  {
+  padding: 1rem;
+  position: relative;
+  bottom: 45px;
+  width:55% ;
+  left: 15vw;
+  border-radius: 10px 0px 10px 0px;
+
+}
+.post-title{
+
+  padding:0rem 1rem;
+  padding-bottom: 2rem;
+}
+main .site-content >.post-image >div {
+
+  overflow: hidden;
+}
+
+footer#footer{
+
+  background-color: #166d3b;
+  background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+
+}
+
+
+
+/* site content */
+
+/* side bar css */
+
+
+.sidebar {
+  height: 40%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Stay on top */
+  margin-top: 78px;
+  top: 0;
+  right: 0%;
+  background-color: #FF7F00;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  border-radius: 30px 0px 30px 30px;
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+
+   background-color: #FF7F00;
+   border-radius: 20px 0px 20px 0px;
+
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  right: 0%;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+/* side bar css */

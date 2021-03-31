@@ -1,0 +1,36 @@
+
+/*  font avel */
+@font-face{
+
+font-family:Abel ;
+src: url(../fonts/Abel/Abel-Regular.ttf);
+
+}
+@font-face{
+
+font-family:Arvo ;
+src: url(../fonts/Arvo/Arvo-Regular.ttf);
+
+
+}
+@font-face{
+
+font-family:josefin ;
+src: url(../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+
+
+}
+@font-face{
+
+font-family:Lexend ;
+src: url(../fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+
+
+}
+@font-face{
+
+font-family:Livvic ;
+src: url(../fonts/Livvic/Livvic-Regular.ttf);
+
+
+}

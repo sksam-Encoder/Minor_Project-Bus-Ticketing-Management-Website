@@ -1,0 +1,96 @@
+
+
+
+
+.container2{
+
+margin: 20px 40px;
+justify-content: center;
+align-items: center;
+display: flex;
+height: 100vh;
+
+background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+.card2{
+
+    border-radius: 50px;
+
+    background-color: #20bf55;
+    background:  linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px #191b1b,-5px -5px 10px #595959;
+    text-align: center;
+    padding: 4%;
+}
+
+.card2 h4{
+
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    color: #ffff;
+}
+
+img#icon{
+width: 20%;
+background: white;
+border-radius: 10px 0px;
+
+}
+h6#Weather{
+
+    font-size:1rem;
+    text-transform: capitalize;
+    color: #ffff;
+    
+}
+
+button.refresh{
+
+ display: block;/* it consumes a whole single new  row  of that area where it exist    */
+width: 100px;
+height: 100px;
+margin: 10px auto;
+font-size: 30px;
+border-radius: 50%;
+box-shadow: 10px 4px 18px #252525, 5px 5px 18px #4a4a4a;
+transition: 0.5s;
+background: transparent;
+outline: none;
+color: #9c9cd9;
+}
+button.refresh:hover{
+
+    box-shadow: inset 10px 4px 18px #252525, 5px 5px 18px #4a4a4a;
+
+}
+span#location{
+
+    margin: 1rem 1rem;
+    color: #ffff;
+}
+    
+.weat {
+    border: none;
+    border-bottom: 2px solid #0BAB64;
+    width: 90%;
+    display: block;
+    background: transparent;
+    outline: none;
+    color: white;
+    font-size: medium;
+    position: relative;
+    left: 9%;
+    margin: 1rem 0rem;
+   align-items: center;
+
+  }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffff;
+  opacity: 1; /* Firefox */
+}
